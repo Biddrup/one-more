@@ -1,0 +1,40 @@
+
+.header {
+	text-transform: uppercase;
+}
+.top-header {
+    background-color: rgba(0, 0, 0, 0.369);
+}
+.header .navbar-default {
+	background-color: transparent;
+    border-color: transparent;
+    z-index: 495;
+}
+.header nav.navbar.navbar-default {
+    min-height: 36px !important;
+    margin-bottom: 0;
+}
+.header .navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.header .header-background img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+}
+.page-info {
+	margin-top: 30%;
+}
+.page-info h2,
+.page-info p {
+	color: #fff;
+}
+.page-info p {
+	padding: 10px 0;
+}
+.buy-now .btn-default {
+    text-transform: uppercase;
+    width: 25%;
+}
