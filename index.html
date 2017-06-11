@@ -1,18 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
 <head>
-	<title>jQuery</title>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Pressionate">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <!-- Page Title -->
+  <title>Title</title>
+  <!-- Favicon and Apple Touch Icons -->
+  <link rel="icon" href="img/favicon.ico">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/linea-icon.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Modernizr -->
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
+
 <body>
-	<ul>
-		<li>Hello 0</li>
-		<li>Hello 2</li>
-		<li>Hello 3</li>
-	</ul>
-	<script src="jquery-3.2.1.js"></script>
-	<script>
-		jQuery('ul li').css(
-			'background', 'green');
-	</script>
+    <!-- Begenning of header area -->
+    <header class="header">
+      <div class="top-header">
+        <div class="container">
+          <nav class="navbar navbar-default">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img src="img/logo.png" alt="eBook logo"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">home</a></li>
+                <li><a href="#">geature</a></li>
+                <li><a href="#">overview</a></li>
+                <li><a href="#">feedback</a></li>
+                <li><a href="#">pricing</a></li>
+                <li><a href="#">author</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </nav><!-- /.navbar-default -->
+        </div>
+      </div>
+      
+      <div class="header-background">
+        <img src="img/header-background.jpg" alt="Header background image">
+      </div>
+      <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-sm-5 col-xs-12">
+                <div class="page-info">
+                  <h2>ebook <br>landing page</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sint architecto expedita itaque ipsum reprehenderit facere odit voluptas, adipisci ipsam sapiente impedit magni veniam, neque eos! Ratione totam cupiditate ipsam?</p>
+                  <div class="buy-now">
+                    <button type="button" class="btn btn-default">buy now</button>
+                  </div>
+                </div><!-- /.page-info -->
+            </div>
+          </div>
+      </div>
+    </header>
+  <!-- End of header area -->
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
