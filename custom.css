@@ -1,5 +1,6 @@
 
 .header {
+	position: relative;
 	text-transform: uppercase;
 }
 .top-header {
@@ -8,7 +9,6 @@
 .header .navbar-default {
 	background-color: transparent;
     border-color: transparent;
-    z-index: 495;
 }
 .header nav.navbar.navbar-default {
     min-height: 36px !important;
@@ -24,8 +24,13 @@
 	z-index: -1;
 	width: 100%;
 }
+/*
+============
+Begenning of page-info
+============
+*/
 .page-info {
-	margin-top: 30%;
+	margin: 45% 0;
 }
 .page-info h2,
 .page-info p {
@@ -37,4 +42,45 @@
 .buy-now .btn-default {
     text-transform: uppercase;
     width: 25%;
+}
+/*
+============
+Begenning of feature-list
+============
+*/
+.feature {
+    text-align: center;
+    padding: 3% 0;
+}
+.feature h2, h4 {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.feature-item {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    padding: 25px 6px;
+    margin-bottom: 10px;
+}
+.feature-item img {
+	width: 8%;
+}
+/*
+============
+Begenning of overview area
+============
+*/
+.overview {
+	text-align: center;
+}
+.overview .chapter {
+  border-radius: 5px;
+  border: 1px solid #f7f7f7;
+  position: relative;
+}
+.icon img {
+	position: absolute;
+	width: 8%;
+	left: 50%;
+	top: 0;
 }
