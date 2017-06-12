@@ -1,4 +1,19 @@
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+h2, h3, h4 {
+	font-size: 30px;
+	color: rgb(64, 64, 64);
+	text-transform: uppercase;
+	line-height: 1.333;
+}
+h3 {
+	font-size: 25px;
+}
+h4 {
+	font-size: 15px;
+}
 .header {
 	position: relative;
 	text-transform: uppercase;
@@ -32,7 +47,6 @@ Begenning of page-info
 .page-info {
 	margin: 45% 0;
 }
-.page-info h2,
 .page-info p {
 	color: #fff;
 }
@@ -52,16 +66,14 @@ Begenning of feature-list
     text-align: center;
     padding: 3% 0;
 }
-.feature h2, h4 {
-	text-transform: uppercase;
-	font-weight: 400;
-}
+
 .feature-item {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
     padding: 25px 6px;
     margin-bottom: 10px;
 }
+
 .feature-item img {
 	width: 8%;
 }
@@ -72,15 +84,240 @@ Begenning of overview area
 */
 .overview {
 	text-align: center;
+	background-color: #f7f7f7;
+	padding-top: 40px;
+	padding-bottom: 20px;
 }
+
 .overview .chapter {
-  border-radius: 5px;
-  border: 1px solid #f7f7f7;
-  position: relative;
+	margin-top: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(203, 203, 203);
+    position: relative;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    line-height: 1.5;
+    padding: 10% 5%;
 }
-.icon img {
+.overview .chapter:hover {
+  border: 1px solid #00cf97;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.overview .icon {
+    position: absolute;
+    width: 30px;
+    left: 50%;
+    top: -20px;
+    padding: 7px;
+    height: auto;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.38);
+}
+/*
+============
+Begenning of video area
+============
+*/
+video {
+	width: 100%;
+	height: 400px;
+}
+/*
+============
+Begenning of author area
+============
+*/
+.author {
+	text-align: center;
+	margin: 5% 0;
+}
+.author-info {
+	text-align: left;
+}
+.author-title h3 {
+	margin: 0;
+}
+.author-title p {
+	text-transform: capitalize;
+}
+.author-social ul {
+	margin: 0;
+}
+.author-social ul li {
+	display: inline-block;
+  	border: 1px solid rgb(192, 192, 192);
+  	border-radius: 5px;
+  	width: 33px;
+  	height: 33px;
+  	text-align: center;
+  	margin-right: 5px;
+
+}
+.author-social ul li:hover {
+	border-radius: 5px;
+	background-color: rgb(0, 207, 151);
+}
+.author-sign {
+    width: 15%;
+    margin: 3% 0;
+}
+
+/*
+============
+Begenning of author area
+============
+*/
+.book-info {
+	position: relative;
+	text-align: center;
+}
+.book-credit {
+	padding: 15% 0;
+}
+.book-info .book-back {
 	position: absolute;
-	width: 8%;
-	left: 50%;
 	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.book-info .book-credit h3 {
+	color: #fff;
+}
+.book-info .book-credit img {
+	width: 8%;
+}
+.book-info .book-credit span {
+  	font-size: 20px;
+  	line-height: 1.2;
+	display: inline-block;
+	color: #fff;
+}
+/*
+============
+Begenning of news area
+============
+*/
+.latest-news {
+	text-align: center;
+}
+.news-item {
+	text-align: left;
+	position: relative;
+	margin-bottom: 40%;
+}
+.news-info {
+	position: absolute;
+	width: 80%;
+	bottom: -50%;
+	left: 10%;
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+	background-color: #fff;
+	padding: 10px;
+}
+
+/*
+============
+Begenning of pricing
+============
+*/
+.pricing {
+	text-align: center;
+	margin: 5% 0;
+}
+.pricing-list {
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, .9);
+	padding-bottom: 5%;
+	margin-top: 5%;
+}
+.pricing-list:hover .price-name {
+	background-color: #00cf97;
+}
+.price-name {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 25px 25px;
+  padding: 5%;
+}
+.price-name span {
+  font-size: 40px;
+  line-height: 0.6;
+}
+.feature ul {
+	margin: 0;
+	list-style: none;
+}
+.feature ul li {
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05);
+	font-size: 16px;
+	line-height: 1.438;
+	padding: 10px 0;
+}
+.pricing-list button {
+	text-transform: uppercase;
+	border: 1px solid #505050;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+/*
+============
+Begenning of contact
+============
+*/
+.contact {
+	text-align: center;
+	background-color: #fafafa;
+	padding: 2% 0;
+}
+.contact-details ul {
+	margin: 0;
+	list-style: none;
+	text-align: left;
+}
+.contact-details ul span {
+    margin-right: 4%;
+    font-size: 19px;
+}
+.required-info {
+	margin-top: 20px;
+}
+.required-info .form-group {
+	width: 40%;
+}
+.required-info button {
+	margin: 20px 0;
+	background-color: #00cf97;
+	text-transform: uppercase;
+}
+/*
+============
+Begenning of contact
+============
+*/
+.footer {
+	background-color: #404040;
+	text-align: center;
+}
+.footer>.author-social {
+	padding-top: 3%;
+	padding-bottom: 2%;
+}
+.footer li {
+	background-color: #6c6c6c;
+	color: #fff;
+}
+.footer li:hover {
+	background-color: #00cf97;
+}
+.footer li a {
+	color: #fff;
+}
+.copyright {
+	text-transform: capitalize;
+	padding-bottom: 1%;
 }
