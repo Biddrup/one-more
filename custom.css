@@ -99,16 +99,15 @@ Begenning of overview area
     line-height: 1.5;
     padding: 10% 5%;
 }
-.overview .chapter:hover {
+.overview .extra:hover .nover {
   border: 1px solid #00cf97;
-  border-style: solid;
   border-radius: 5px;
+  transition: .7s;
 }
-
 .overview .icon {
     position: absolute;
     width: 30px;
-    left: 50%;
+    left: 45%;
     top: -20px;
     padding: 7px;
     height: auto;
@@ -234,8 +233,9 @@ Begenning of pricing
 	padding-bottom: 5%;
 	margin-top: 5%;
 }
-.pricing-list:hover .price-name {
+.pricing-list:hover .pricing-hover {
 	background-color: #00cf97;
+	transition: .9s;
 }
 .price-name {
   background-color: rgb(255, 255, 255);
@@ -278,10 +278,6 @@ Begenning of contact
 	margin: 0;
 	list-style: none;
 	text-align: left;
-}
-.contact-details ul span {
-    margin-right: 4%;
-    font-size: 19px;
 }
 .required-info {
 	margin-top: 20px;
