@@ -14,6 +14,12 @@ h3 {
 h4 {
 	font-size: 15px;
 }
+
+/* 
+==========
+Beginning of header area
+==========
+*/
 .header {
 	position: relative;
 	text-transform: uppercase;
